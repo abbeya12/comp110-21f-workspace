@@ -9,7 +9,11 @@ __author__ = "ENTER YOUR 9-DIGIT PID HERE"
 #
 # For example, consider the function call expression: randint(1, 100)
 # It will evaluate to an int value >= 1 and <= 100. 
-from random import randint
+from random import randint, random
+number = random
 
-
-# Begin your solution here...
+print("Your fortune cookie says...")
+if number == 1:
+    print("The sun shines brightly on your future, and you will be smiling.")
+else:
+    print("This is another filler fortune.")
